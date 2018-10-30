@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    background-color: #9999ff;
 }
 
 body {
@@ -12,6 +13,7 @@ a {
 
 .main {
     height: 100%;
+    background:url("http://wallsdesk.com/wp-content/uploads/2016/02/pictures-of-bruno-mars.jpeg");
 }
 .social-image{
     width: 30px;
@@ -43,3 +45,4 @@ a {
     display:flex;
     justify-content:center;
 }
+
