@@ -1,20 +1,29 @@
 html {
     height: 100%;
     background-color: #9999ff;
+       
 }
 
 body {
+   font-family: 'Pattaya', sans-serif;
     height: 100%;
     
 }
 a {
     text-decoration: none;
+      font-family: 'Pattaya', sans-serif;
 }
 
 .main {
+display:flex; 
+justify-content:space-around;
     height: 100%;
     background:url("http://wallsdesk.com/wp-content/uploads/2016/02/pictures-of-bruno-mars.jpeg");
+    font-family: 'Pattaya', sans-serif;
 }
+
+
+
 .social-image{
     width: 30px;
     margin: 15px;
@@ -37,12 +46,14 @@ a {
 }
 
 .thumbnail-image{
+    border:8px groove blue; 
+    margin:15px;
     width:300px;
 }
 
 
 .gallery{ 
     display:flex;
-    justify-content:center;
+   
 }
 
